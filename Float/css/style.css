@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(236, 231, 231);
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: rgba(122, 118, 118, 0.726);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: rgba(122, 118, 118, 0.726);
+}
+
+.list {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    clear: both;
+    word-wrap: break-word;
+}
+
+.list-item {
+    height: 30px;
+    border-top: 1px solid rgb(168, 166, 166);
+    border-left: 1px solid rgb(168, 166, 166);
+    border-right: 1px solid rgb(168, 166, 166);
+    position: relative;
+}
+
+.list-item:hover {
+    background-color: rgba(156, 152, 152, 0.726);
+}
+
+.left-item {
+    float: left;
+    position: absolute;
+    top: 15%;
+}
+
+.right-item {
+    float: right;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    text-align: center;
+}
+
+.right-item:hover {
+    background-color: rgb(212, 99, 114);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+    top: 15%;
+}
+
+.item1 {
+    background-color: white;
+}
+
+.item2 {
+    background-color: rgb(216, 213, 213);
+}
+
+.item3 {
+    background-color: white;
+}
+
+.item4 {
+    border-bottom: 1px solid rgb(168, 166, 166);
+    background-color: rgb(216, 213, 213);
+}
+
+.form {
+    background-color: yellow;
+    padding: 30px;
+}
+
+.submit {
+    padding-top: 30px;
+}
+
+[type="submit"] {
+    border: 1px solid grey;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(52, 158, 98);
+    color: snow;
+    border-radius: 5px;
+}
